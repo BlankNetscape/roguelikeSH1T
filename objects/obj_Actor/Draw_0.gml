@@ -1,6 +1,7 @@
 /// @description 
 
 //aboba
+//bobus
 draw_self() // Need for draw self. Without stops drow main sprite. 
 
 
