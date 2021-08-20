@@ -1,7 +1,5 @@
 /// @description 
 
-//aboba
-//bobus
 draw_self() // Need for draw self. Without stops drow main sprite. 
 
 
@@ -18,5 +16,8 @@ if (selected) { //NOTE: Draw selection's mode rectangles.
 	
 	draw_sprite(possibleSelectionSprite, 0, predict_x, predict_y);
 	
+	//NOTE: Draw path
+	draw_path(path, x, y, true)
 }
+
 

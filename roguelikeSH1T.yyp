@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":1,},
+    {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},"order":3,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":0,},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":16,},
     {"id":{"name":"sSelction_white","path":"sprites/sSelction_white/sSelction_white.yy",},"order":0,},

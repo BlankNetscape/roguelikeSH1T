@@ -36,6 +36,9 @@ if (mouse_check_button_released(mb_left)){
 	//NOTE: Toogle selection mode
 	var instSelf = collision_point(mouse_x,mouse_y,obj_Actor,0,0);
 	
+	
+	
+	//NOTE:
 	if ( instSelf != noone ) {selected=true;} else {selected=false;}
 }
 if (selected==true){
@@ -50,6 +53,16 @@ if (selected==true){
 		
 	predict_x = mouse_x - tempDistanceX_Rest;
 	predict_y = mouse_y - tempDistanceY_Rest;
+	
+	//NOTE: 
+	if ( ! isMoving ){
+		mp_grid_path(global.grid , path, 
+			x+8, 
+			y+8, 
+			predict_x+8,
+			predict_y+8,
+		true)
+	}
 }
 
 		
